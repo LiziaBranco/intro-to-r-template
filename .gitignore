@@ -1,0 +1,24 @@
+# R session files (personal, change constantly, can be large)
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Secrets - never upload these
+.Renviron
+.httr-oauth
+
+# Operating system clutter
+.DS_Store
+Thumbs.db
+
+# Large data files (use a data repository or shared drive instead)
+*.rds
+*.h5
+*.h5ad
+*.loom
+*.mtx
+*.mtx.gz
+*.fastq
+*.fastq.gz
+*.bam
